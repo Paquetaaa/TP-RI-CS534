@@ -2,7 +2,7 @@ import sys
 import matplotlib.pyplot as plt
 
 if len(sys.argv) != 2:
-    print("Usage: python plot.py <extension>  (ex: .flt)")
+    print("Usage: python3 plot.py <extension>  (ex: .stem)")
     sys.exit(1)
 
 count_file = f"./count/count{sys.argv[1]}.txt"

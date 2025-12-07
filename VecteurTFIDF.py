@@ -3,7 +3,7 @@ import os
 import math
 
 if len(sys.argv) != 2:
-    print("Usage: python vecteurTFIDF.py <extension>")
+    print("Usage: python3 vecteurTFIDF.py <extension>")
     print("Exemples : .clean   .nowords   .stem")
     sys.exit(1)
 

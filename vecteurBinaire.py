@@ -5,7 +5,7 @@ import sys
 
 # Vérification des arguments
 if len(sys.argv) != 2:
-    print("Usage: python vecteurBinaire.py <extension>")
+    print("Usage: python3 vecteurBinaire.py <extension>")
     print("Exemples : .clean   .nowords   .stem")
     sys.exit(1)
 

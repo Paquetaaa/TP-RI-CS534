@@ -29,7 +29,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 3:
-        print("Usage: python TermFreq.py <term> <file_extension>, ex : .stem")
+        print("Usage: python3 TermFreq.py <term> <file_extension>, ex : .stem")
         sys.exit(1)
 
     term = sys.argv[1]

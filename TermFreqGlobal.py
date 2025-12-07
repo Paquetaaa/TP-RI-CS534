@@ -6,7 +6,7 @@ import os
 import sys
 
 if len(sys.argv) != 2:
-    print("Usage: python TermFreqGlobal.py <file_extension>, ex : .stem")
+    print("Usage: python3 TermFreqGlobal.py <file_extension>, ex : .stem")
     sys.exit(1)
 
 SRC_DIR = "./vocabulary"

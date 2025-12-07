@@ -5,7 +5,7 @@ SRC_DIR = "./Collection"
 vocabulaire = set()
 
 if len(sys.argv) != 2:
-    print("Usage: python vocabulaire.py <file_extension>, ex : .stem")
+    print("Usage: python3 vocabulaire.py <file_extension>, ex : .stem")
     sys.exit(1)
 
 for filename in os.listdir(SRC_DIR):

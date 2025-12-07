@@ -2,7 +2,7 @@ import sys
 import re
 
 if len(sys.argv) < 4:
-    print("Usage: python searchTF.py <extension> \"query\" <Documents number>")
+    print("Usage: python3 searchTF.py <extension> \"query\" <Documents number>")
     sys.exit(1)
 
 DOC_NUMBER = int(sys.argv[3])
